@@ -1,8 +1,11 @@
 import React from 'react'
+import CardEssentials from './cards/CardEssentials'
 
 const Knowledges = () => {
   return (
-    <div>Knowledges</div>
+    <div>
+      <CardEssentials />
+    </div>
   )
 }
 
