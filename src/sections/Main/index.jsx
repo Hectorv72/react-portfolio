@@ -12,7 +12,7 @@ const Main = () => {
           <h1>Full Stack Developer</h1>
           <p>Me gusta todo lo relacionado al desarrollo de software y su implementación en las distintas areas de trabajo.</p>
         </div>
-        <Specialties />
+        {/* <Specialties /> */}
       </div>
       <div className='col-4'>
         <img src={image} className='img-fluid' />

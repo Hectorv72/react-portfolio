@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: #f3f3f3;
+}
+
+.essentialsimg {
+  width: 13em;
+}
+
 .devicon {
-  width: 15em;
+  width: 2.5em;
 }
