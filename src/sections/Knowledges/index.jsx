@@ -6,7 +6,8 @@ import { iconsBackend, iconsDatabase, iconsDevops, iconsFrontend, iconsMobile, i
 const Knowledges = () => {
 
   return (
-    <div className='p-4'>
+    <section className='p-4 my-3'>
+      <h4 className='mb-5'>Conocimientos</h4>
       <div className='row mb-4 d-flex justify-content-center'>
         <CardEssentials />
       </div>
@@ -18,7 +19,7 @@ const Knowledges = () => {
         <CardIcons title='Despliegue' subtitle='Devops' icons={iconsDevops} />
         <CardIcons title='Otros...' subtitle='Others...' icons={iconsOthers} />
       </div>
-    </div>
+    </section>
   )
 }
 
